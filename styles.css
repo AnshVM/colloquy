@@ -1,0 +1,71 @@
+*{
+    font-family: sans-serif;
+}
+.super{
+    text-align: center;
+    color:#104c8f;
+    margin:auto;
+    width:100%;
+}
+
+#logo{
+    margin-top:40px;
+    width: 100px;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Montserrat';
+    font-weight:'bold' ;
+    text-transform: uppercase;
+}
+
+hr{
+    width:80%;
+    max-width: 700px;
+    border:2px solid #104c8f;
+}
+
+.clock{
+    width: fit-content;
+    margin: auto;
+    font-size: 40px;
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+}
+
+.text{
+    font-weight:100;
+    font-size: 30px;
+}
+
+.count{
+    font-weight:100;
+    font-size: 60px;
+}
+
+.info{
+    display:flex;
+    flex-direction: column;
+    gap:1px;
+    font-size: 50px;
+    font-weight:100;
+    font-size: 40px;
+}
+
+button{
+    background-color: #104c8f;
+    color: white;
+    border:none;
+    font-size: 20px;
+    margin-top: 20px;
+    padding:15px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+button:hover{
+    background-color:#1b69c2;
+}
